@@ -1,0 +1,61 @@
+.navbar{
+    top: 0;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+    width: 100vw;
+    position: absolute;
+    overflow: hidden;
+}
+
+.navbar-logo{
+    height: 66px;
+    width: 63px;
+    margin-left: 70px;
+}
+.navbar-links{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.navbar-links li{
+    margin: 0 15px;
+}
+.navbar-links a{
+    color: #274760;
+    font-size: 16px;
+    font-weight: 400;
+}
+#searchicon{
+    margin-left: 360px;
+    color: #274760;
+}
+#listicon{
+    margin-right: 60px;
+    color: #274760;
+}
+.Home{
+    background-color: white;
+    border: none;
+    margin: 0 15px;
+    color: #274760;
+    font-size: 15px;
+    font-weight: 400;
+}
+.Pages{
+    background-color: white;
+    border: none;
+    margin: 0 15px;
+    color: #274760;
+    font-size: 15px;
+    font-weight: 400;
+}
+.Pages option{
+    font-size: 16px;
+    font-weight: 400;
+}
